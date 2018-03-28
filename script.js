@@ -21,11 +21,11 @@ h1.style.position = 'absolute';
 h1.style.top = c.height / 11 + 'px';
 h1.style.fontSize = (c.height / 11) + 'px';
 h1.style.lineHeight = (c.height / 7) + 'px';
-h1.innerHTML = '<mark>RAUL</mark><br><mark>RODRIGUEZ</mark><br><mark>/CC</mark><br><mark><i class="lerp-text"><a target="_blank" href="h"><a href="mailto: raul.f.rodriguez.19@dartmouth.edu"><i class="px-2 fa fa-envelope-o"></i></a><a href="https://github.com/rah-ool"><i class="px-2 fa fa-github fa"></i></a><a href="https://www.linkedin.com/in/raulfelixrodriguez"><i class="px-2 fa fa-linkedin-square"></i></a></a></i></mark>';
+h1.innerHTML = '<mark>RAUL</mark><br><mark>RODRIGUEZ</mark><br><mark>/CC</mark><br><mark><b class="lerp-text"><a target="_blank" href="h"><a class="px-2" href="mailto: raul.f.rodriguez.19@dartmouth.edu">📩</a><a class="px-2" href="https://github.com/rah-ool">👨‍💻</a><a class="px-2" href="https://www.linkedin.com/in/raulfelixrodriguez">📇</a></b></mark>';
 
 document.body.appendChild(h1);
 var lerpText = document.querySelector('.lerp-text').children[0];
-lerpText.style.color = 'black';
+lerpText.style.color = '#33FFCC';
 
 document.body.style.padding = 0;
 document.body.style.margin = 0;
