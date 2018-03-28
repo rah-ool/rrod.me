@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Tabac Mono';
+    src: url('fonts/TabacMono.eot');
+    src: url('fonts/TabacMono.eot?#iefix') format('embedded-opentype'),
+        url('fonts/TabacMono.woff2') format('woff2'),
+        url('fonts/TabacMono.woff') format('woff'),
+        url('fonts/TabacMono.ttf') format('truetype'),
+        url('fonts/TabacMono.svg#TabacMono') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+  font-family: 'Tabac Mono' !important;
+}
+h1 {
+  color: white !important;
+}
+mark {
+  background-color: black !important;
+  color: white !important;
+}
