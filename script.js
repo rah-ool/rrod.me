@@ -19,7 +19,6 @@ if (c.width > 950) {
 h1.classList.add('lerp-header');
 h1.style.position = 'absolute';
 h1.style.top = c.height / 11 + 'px';
-h1.style.fontFamily = 'Georgia, sans-serif';
 h1.style.fontSize = (c.height / 11) + 'px';
 h1.style.lineHeight = (c.height / 7) + 'px';
 h1.innerHTML = '<mark>RAUL</mark><br><mark>RODRIGUEZ</mark><br><mark>/CC</mark><br><mark><i class="lerp-text"><a target="_blank" href="h"><a href="mailto: raul.f.rodriguez.19@dartmouth.edu"><i class="px-2 fa fa-envelope-o"></i></a><a href="https://github.com/rah-ool"><i class="px-2 fa fa-github fa"></i></a><a href="https://www.linkedin.com/in/raulfelixrodriguez"><i class="px-2 fa fa-linkedin-square"></i></a></a></i></mark>';
